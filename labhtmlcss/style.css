@@ -1,8 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Bangers&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Bangers|Kanit&display=swap');
+
 body{
     margin : 0;
     padding :0;
-    background: #ccc;
+    background:url(https://i.pinimg.com/564x/c9/aa/2f/c9aa2f563b16534c51a6ab8df69f4900.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .head0
 {
@@ -12,33 +16,68 @@ body{
     font-size:  50px;
     font-family: 'Bangers', cursive;
     padding: 30px;
+   
       
 }
-.manu ul
-{ 
-    display: block;
-    text-align : center;
-    list-style: none;
-    padding :0;
-    margin : 0; 
-
+.test0
+{
+  font-family: 'Kanit', sans-serif;
 }
+.pic1 figure img
+{
+  margin: 30px;
+  border: 1px solid #ccc;
+  float: center;
+  width: 370;
+}
+.pic2 figure img
+{
+  margin: 30px;
+  border: 1px solid #ccc;
+  float: center;
+  width: 370;
+}
+article
+{
 
-@media (max-width: 600px) {
-    nav, article {
-      width: 100%;
-      height: auto;
-    }
-  }
-  .manu {
-    overflow: hidden;
-    background-color: #333;
-    margin: 0;
-    padding: 0;
-  }
-  .pic
-  {
-    font: right;
-    width: 500px;
-    height: auto;
-  }
+  display: inline-block;
+}
+.seril0 ul
+{
+  list-style: none;
+  display: inline;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.seril0 li
+{
+  font-size: 1.2em;
+  line-height: 20px;
+  text-align: left;
+  display: inline-block
+}
+.a1
+{
+
+  text-align: center;
+}
+.a1 p
+{
+  text-align: left;
+  padding: auto;
+}
+ p img
+{
+  float :right;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+.seril1 
+{
+  text-indent: 2em;
+}
+footer{
+  text-align: right;
+}
