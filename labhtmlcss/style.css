@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Bangers&display=swap');
+body{
+    margin : 0;
+    padding :0;
+    background: #ccc;
+}
+.head0
+{
+    color: white;
+    background-color: #999999;
+    text-align : center;
+    font-size:  50px;
+    font-family: 'Bangers', cursive;
+    padding: 30px;
+      
+}
+.manu ul
+{ 
+    display: block;
+    text-align : center;
+    list-style: none;
+    padding :0;
+    margin : 0; 
+
+}
+
+@media (max-width: 600px) {
+    nav, article {
+      width: 100%;
+      height: auto;
+    }
+  }
+  .manu {
+    overflow: hidden;
+    background-color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  .pic
+  {
+    font: right;
+    width: 500px;
+    height: auto;
+  }
